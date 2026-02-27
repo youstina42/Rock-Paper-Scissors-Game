@@ -10,10 +10,10 @@ public class ComputerPlayer extends Player {
 
     @Override
     public String makeMove(){
-        // Fixed typo: changed .lenght to .length
         int index = random.nextInt(options.length); 
         String move = options[index];
         System.out.println(getName() + " chose: " + move);
         return move;
     }
 }
+
